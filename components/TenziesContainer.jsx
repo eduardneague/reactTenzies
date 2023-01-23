@@ -132,7 +132,7 @@ function rollDice() {
         return (
           <div className="tenzies--container">
             <h1 className = "tenzies--title">
-          <img  className =  "tenzies--reactLogo" src = "../public/react.svg"/>
+          <img  className =  "tenzies--reactLogo" src = "/react.svg"/>
           React Tenzies
         </h1>
         <p className = "tenzies--author" >made with ❤️ by edu</p>
@@ -147,7 +147,7 @@ function rollDice() {
           <div className="tenzies--container">
 
       <h1 className = "tenzies--title" id = "secondary--title">
-        <img  className =  "tenzies--reactLogo" src = "../public/react.svg"/>
+        <img  className =  "tenzies--reactLogo" src = "/react.svg"/>
         React Tenzies
       </h1>
 
