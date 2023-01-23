@@ -1,0 +1,291 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(34, 34, 34);
+}
+
+.tenzies--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 600px;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 20px 20px  #61DBFB;
+}
+
+.tenzies--title {
+  font-size: 60px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.tenzies--startButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61DBFB;
+  color: white;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.tenzies--startButton:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #61DBFB;
+  box-shadow: inset 0 0 0 2px #61DBFB;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+
+.tenzies--startButton:active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+
+.tenzies--reactLogo {
+  width: 40px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+.tenzies--author {
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.tenzies--gridWrapper {
+  width: 80%;
+  height: 160px;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+   /* border: 2px solid red;  */
+}
+
+.tenzies--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  aspect-ratio: 1;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 2px 2px 5px rgb(166, 166, 166);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.tenzies--box:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 2px 2px 5px rgb(166, 166, 166);
+  cursor: pointer;
+  transition: .1s;
+}
+.tenzies--rollButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61DBFB;
+  color: white;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.tenzies--rollButton:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #61DBFB;
+  box-shadow: inset 0 0 0 2px #61DBFB;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+
+.tenzies--rollButton:active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+
+.tenzies--instructions {
+  font-size: 20px;
+  color: grey;
+  font-family: poppins;
+  text-align: center;
+  width: 50%;
+  line-height: 25px;
+}
+
+.tenzies--totalRolls {
+  font-family: poppins;
+  color: grey;
+  font-size: 20px;
+}
+
+.tenzies--author {
+  font-family: poppins;
+  color: grey;
+  font-size: 20px;
+}
+
+.tenzies--score {
+  font-family: poppins;
+  font-size: 30px;
+  color: grey;
+}
+
+.tenzies--rolls {
+  font-weight: 600;
+  color:#61DBFB;
+}
+
+.tenzies--message {
+  color: grey;
+  font-family: poppins;
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.tenzies--replay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #61DBFB;
+  color: white;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.tenzies--replay:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #61DBFB;
+  box-shadow: inset 0 0 0 2px #61DBFB;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+
+.tenzies--replay:active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
